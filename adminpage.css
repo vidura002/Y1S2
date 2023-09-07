@@ -1,0 +1,49 @@
+.admin1-btn{
+    margin: 50px;
+    background-color: blue;
+    color: white;
+    border: none;
+    outline: none;
+    width: 70px;
+    height: 40px;
+    border-radius: 5px;
+}
+.admin1-btn a{
+    text-decoration: none;
+    color: #fff;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+.update-btn{
+    margin: 70px;
+    background-color: blue;
+    color: white;
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+.update-btn a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.delete-btn{
+    margin: 70px;
+    background-color: rgb(201, 0, 0);
+    color: white;
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    margin: -60px;
+}
+.delete-btn a{
+    color: #fff;
+    text-decoration: none;
+}

@@ -1,0 +1,141 @@
+/* ***********************************************about-header******************************************** */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.abou-header{
+    height: 80vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/vishwa1.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.abou-header h1{
+    margin-top: 100px;
+}
+.about-us{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.about-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.about-col img{
+    width: 100%;
+}
+nav{
+    display: flex;
+    padding: 6px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 90px;
+}
+
+.nav-links{
+     flex: 1; 
+    text-align: right;
+    margin-right: 6%;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+
+/* **************************************************About-Us************************************************************ */
+
+.about-1{
+    margin: 30px;
+    padding: 5px;
+}
+.about-1 h1{
+    text-align: center;
+    color: #000;
+    font-weight: 600;
+    font-size: 40px;
+}
+.about-1 p{
+    text-align: center;
+    padding: 3px;
+    color: #1f1d1d;
+}
+.about-item{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 4px rgba(0,0,0.6);
+    padding: 80px 30px;
+}
+.about-item i{
+    font-size: 40px;
+    margin: 0;
+    margin-left: 46%;
+}
+.about-item h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+.about-item hr{
+    width: 50px;
+    height: 3px;
+    background-color: #5fbff9;
+    margin: 0 auto;
+    border: none;
+}
+.about-item p{
+    text-align: center;
+    margin: 20px;
+}
+.about-item:hover{
+    background-color: #5fbff9;
+}
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover p{
+    color: #fff;
+}
+.about-item:hover hr{
+    background-color: #fff;
+    width: 50%;
+}
+.about-item:hover i{
+    transform: translateY(-20px);
+}
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover hr{
+    transition: all 400ms ease-in-out;
+}

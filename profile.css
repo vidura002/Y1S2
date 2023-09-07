@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    padding: 6px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 90px;
+}
+
+.nav-links{
+     flex: 1; 
+    text-align: right;
+    margin-right: 6%;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: #000;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+
+
+
+.profile{
+    margin: 20px;
+    padding: 15px;
+}
+.profile i{
+    font-size: 130px;
+    margin-left: 47%;
+    margin-bottom: 20px;
+    padding: 15px 0;
+}
+.profile h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    background-color: forestgreen;
+}
+.profile p{
+    text-align: left;
+    padding: 15px;
+    margin-left: 20px;
+    margin-left: 20%;
+}
+.profile input{
+   margin-left: 25%;
+   width: 50%;
+   height: 40px;
+}
+.profile a{
+    color: #fff;
+    font-size: 20px;
+    background-color: blue;
+    border: 2px#fff;
+    border-radius: 5px;
+    width: 80px;
+    height: 40px;
+    margin-top: 40px;
+    text-decoration: none;
+    text-align: center;
+    display: inline;
+    padding: 5px;
+    margin-bottom: 20px;
+
+}
+.logout-btn{
+    float: right;
+}

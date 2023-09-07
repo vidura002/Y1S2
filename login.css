@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+nav{
+    display: flex;
+    padding: 6px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 90px;
+}
+
+.nav-links{
+     flex: 1; 
+    text-align: right;
+    margin-right: 6%;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: #000;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+
+/* *************************************************lOGIN*********************************************************** */
+
+body{
+    background-image: url(img/Picture6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+.container{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+}
+span{
+    color: #fff;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10PX 0;
+}
+.input-field{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    height: 45px;
+    width: 87%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: #fff;
+    padding: 0 0 0 45px;
+    background: rgba(225,225,225,0.5);
+}
+.input-field i{
+    position: relative;
+    top: -37px;
+    left: 17px;
+}
+::-webkit-input-placeholder{
+    color: black;
+}
+.submit{
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    width: 100%;
+    outline: none;
+    background: rgba(225,225,225,0.9);    
+}
+.submit:hover{
+
+    color: #fff;
+}
+.hero-btn{
+    margin-left: 110px;
+}
